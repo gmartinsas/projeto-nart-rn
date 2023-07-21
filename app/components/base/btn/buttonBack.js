@@ -2,7 +2,7 @@ import React from "react-native";
 import { Pressable, StyleSheet } from "react-native";
 import { AntDesign } from '@expo/vector-icons';
 
-export default function TesteDeComponentes() {
+export default function BotaoVoltar() {
     return (
         <Pressable 
             style={Estilos.container}
@@ -12,9 +12,6 @@ export default function TesteDeComponentes() {
         </Pressable>
     );
 }
-
-// Fazer um IF para o tipo de navbar que vai exportar pro componente pai 
-// Exemplo: tipo 'busca' = navbar com o icon de pesquisa + o X, etc
 
 const Estilos = StyleSheet.create({
     container: {
