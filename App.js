@@ -10,9 +10,11 @@ export default function App() {
       <Navbar type={''}/>
         <View style={{paddingHorizontal: 16}}>
           <Titulo string={'Artigos'} />
+
+          <TesteDeComponentes />
         </View>
       
-      <TesteDeComponentes />
+      
       
       <StatusBar />
     </SafeAreaView>

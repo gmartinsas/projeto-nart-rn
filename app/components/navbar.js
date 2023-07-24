@@ -1,7 +1,7 @@
 import React from "react-native";
 import { Image, StyleSheet, Text, View } from "react-native";
 
-const icon = {uri :'https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg'}
+export const icon = {uri :'https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg'}
 
 import BotaoVoltar from "./base/btn/buttonBack";
 
