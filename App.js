@@ -1,8 +1,8 @@
 import { SafeAreaView, StatusBar, StyleSheet, View } from 'react-native';
-
 import Navbar from './app/components/navbar';
-import TesteDeComponentes from './app/components/testes';
+import Artigo from './app/components/article';
 import Titulo from './app/components/titulo';
+import TesteDeComponentes from './app/components/testes';
 
 export default function App() {
   return (
@@ -11,11 +11,10 @@ export default function App() {
         <View style={{paddingHorizontal: 16}}>
           <Titulo string={'Artigos'} />
 
-          <TesteDeComponentes />
+          <Artigo />
         </View>
       
-      
-      
+        <TesteDeComponentes />
       <StatusBar />
     </SafeAreaView>
   );
